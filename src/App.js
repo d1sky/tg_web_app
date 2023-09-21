@@ -10,13 +10,16 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import { useEffect } from 'react';
 import './App.css';
 import Form from './components/form/form';
+import { useTelegram } from './hooks/useTelegram';
 
 const tg = window.Telegram.WebApp;
 
 function App() {
+  const { user } = useTelegram();
 
   useEffect(() => {
     tg.ready()
+    console.log(user);
   }, [])
 
   const onClose = () => {
