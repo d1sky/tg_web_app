@@ -19,7 +19,6 @@ function App() {
 
   useEffect(() => {
     tg.ready()
-    console.log(user);
   }, [])
 
   const onClose = () => {
@@ -41,7 +40,7 @@ function App() {
             <TelegramIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Стройка
+            {user?.username}
           </Typography>
           {/* <Button color="inherit">Login</Button> */}
         </Toolbar>
