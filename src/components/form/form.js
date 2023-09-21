@@ -20,12 +20,11 @@ export default function Form() {
             noValidate
             autoComplete="off"
         >
-
             <FormControl fullWidth sx={{ m: 5 }}>
                 <InputLabel htmlFor="outlined-adornment-amount">ФИО</InputLabel>
                 <OutlinedInput
                     id="outlined-adornment-amount"
-                    label="Amount"
+                    label="ФИО"
                 />
             </FormControl>
 
@@ -33,7 +32,7 @@ export default function Form() {
                 <InputLabel htmlFor="outlined-adornment-amount">Телефон</InputLabel>
                 <OutlinedInput
                     id="outlined-adornment-amount"
-                    label="Amount"
+                    label="Телефон"
                 />
             </FormControl>
 
@@ -41,7 +40,7 @@ export default function Form() {
                 <InputLabel htmlFor="outlined-adornment-amount">Кадастр</InputLabel>
                 <OutlinedInput
                     id="outlined-adornment-amount"
-                    label="Amount"
+                    label="Кадастр"
                 />
             </FormControl>
 
@@ -49,7 +48,7 @@ export default function Form() {
                 <InputLabel htmlFor="outlined-adornment-amount">Населенный пункт</InputLabel>
                 <OutlinedInput
                     id="outlined-adornment-amount"
-                    label="Amount"
+                    label="Населенный пункт"
                 />
             </FormControl>
 
