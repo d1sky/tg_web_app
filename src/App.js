@@ -9,6 +9,7 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 
 import { useEffect } from 'react';
 import './App.css';
+import Form from './components/form/form';
 
 const tg = window.Telegram.WebApp;
 
@@ -42,6 +43,7 @@ function App() {
           {/* <Button color="inherit">Login</Button> */}
         </Toolbar>
       </AppBar>
+      <Form />
     </Box>
   );
 }
